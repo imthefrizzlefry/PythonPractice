@@ -1,3 +1,8 @@
 # PythonPractice
+![Python package](https://github.com/imthefrizzlefry/PythonPractice/workflows/Python%20package/badge.svg)
 
-pip install -r pyRequirements.txt
+## Configure
+pip install -r requirements.txt
+
+## Run Tests
+pytest
