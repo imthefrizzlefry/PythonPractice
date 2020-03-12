@@ -1,5 +1,5 @@
 import unittest
-from findSumOfK import findSumOfK
+from Easy_Problem01 import findSumOfK
 
 class findSumOfKTests(unittest.TestCase):
     def test_findSumOfTests_Example(self):

@@ -1,5 +1,5 @@
 import unittest
-from firstMissingPositiveInt import firstMissingPositiveInt
+from Hard_Problem04 import firstMissingPositiveInt
 
 class firstMissingPositiveIntTests(unittest.TestCase):
     def test_firstMissingPositiveInt_ExampleOne(self):

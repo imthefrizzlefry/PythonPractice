@@ -1,5 +1,7 @@
 import unittest
-import pairOperations
+from Medium_Problem05 import car
+from Medium_Problem05 import cdr
+from Medium_Problem05 import cons
 
 class pairOperationsTests(unittest.TestCase):
     def test_car_Example(self):
@@ -9,7 +11,7 @@ class pairOperationsTests(unittest.TestCase):
         expected = 3
 
         # Act
-        actual = pairOperations.car(pairOperations.cons(a,b))
+        actual = car(cons(a,b))
 
         # Assert
         self.assertEqual(expected, actual)
@@ -21,7 +23,7 @@ class pairOperationsTests(unittest.TestCase):
         expected = 4
 
         # Act
-        actual = pairOperations.cdr(pairOperations.cons(a,b))
+        actual = cdr(cons(a,b))
 
         # Assert
         self.assertEqual(expected, actual)

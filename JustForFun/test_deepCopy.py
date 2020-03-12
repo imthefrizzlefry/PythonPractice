@@ -33,6 +33,7 @@ class deepCopyTests(unittest.TestCase):
 
         self.assertEqual(2.0, inputB.children[0].value)
         self.assertEqual(3.0, inputA.children[0].value)
+        
     def test_deepCopyInterDependancyPreservesLinks(self):
         inputA = Node(1.0)
         inputB = Node(2.0,[inputA])

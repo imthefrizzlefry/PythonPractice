@@ -13,3 +13,20 @@ class Node:
 			history[self] = newInstance
 			newInstance.children = [c.deep_copy(history) for c in self.children]
 			return newInstance
+
+
+if __name__ == '__main__':
+	my_tree = Node(1, [Node(2), Node(3), Node(4)])
+
+	print("{}{}".format("my_tree: ",id(my_tree)))
+	print("{}{}".format("my_tree -> Child 1: ",id(my_tree.children[0])))
+	print("{}{}".format("my_tree -> Child 2: ",id(my_tree.children[1])))
+	print("{}{}".format("my_tree -> Child 3: ",id(my_tree.children[2])))
+
+	new_tree = my_tree.deep_copy()
+
+	print("{}{}".format("new_tree: ",id(new_tree)))
+	print("{}{}".format("new_tree -> Child 1: ",id(new_tree.children[0])))
+	print("{}{}".format("new_tree -> Child 2: ",id(new_tree.children[1])))
+	print("{}{}".format("new_tree -> Child 3: ",id(new_tree.children[2])))
+
