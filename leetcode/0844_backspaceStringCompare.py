@@ -4,7 +4,7 @@ def backspaceCompare(S: str, T: str) -> bool:
 def process(s):
     temp = []
     for c in s:
-        if c is not '#':
+        if c != '#':
             temp.append(c)
         elif len(temp) > 0:
             temp.pop()

@@ -14,7 +14,7 @@ class PageDriver:
 
         logging.debug(chrome_options)
         # create a new Chrome session
-        self.driver = webdriver.Chrome(chrome_options=chrome_options)
+        self.driver = webdriver.Chrome(options=chrome_options)
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
         self.base_url = base_url
@@ -22,8 +22,8 @@ class PageDriver:
     def closeBrowser(self):
         self.driver.quit() 
 
-    def getVideoUrls():
-        driver.get(self.base_url)
+    def getVideoUrls(self):
+        self.driver.get(self.base_url)
         video_selector = "a[contains(text, 'Internet Archive(MP4)')]"
         logging.debug("selector: {}".format(video_selector))
 

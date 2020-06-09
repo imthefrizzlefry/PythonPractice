@@ -67,7 +67,7 @@ def LoanSummary(principal, interest, payments, originationDate = datetime.date.t
     print('You will pay ${0:,.2f} in interest'.format(total-principal))
     print('Remaining Balance as of now is ${0:,.2f}'.format(remainingPrincipal))
 
-def SummarizeMyLoans(filename = './Practice/Python/JustForFun/loanList.csv', verbose=False):
+def SummarizeMyLoans(filename = './JustForFun/loanList.csv', verbose=False):
     '''Parse a CSV file containg loan data, and print the summary data for all of the loans'''
     with open(filename, 'r') as myCSVFile:
         dataFromFile = csv.reader(myCSVFile)

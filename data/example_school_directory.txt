@@ -1,0 +1,13 @@
+First Class Name
+Child's Name: John Doe Jr
+Name (Mom): Jane Doe 
+Phone Number:555 867 5309
+Name (Dad): John Doe
+Phone Number:555 123 4567
+Email: john.doe@email.com
+Second Class Name
+Child's Name: Jane Doe II
+Name (Mom): Jane Doe 
+Phone Number:555 867 5309
+Email: jane.doe@email.com
+invalid field: this line is ignored

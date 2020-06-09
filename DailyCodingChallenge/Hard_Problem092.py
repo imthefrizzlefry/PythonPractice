@@ -8,4 +8,4 @@ For example, given {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC10
 '''
 
 given = {'CSC300': ['CSC100', 'CSC200'], 'CSC200': ['CSC100'], 'CSC100': []}
-expected = ['CSC100', 'CSC200', 'CSCS300']a
+expected = ['CSC100', 'CSC200', 'CSCS300']
