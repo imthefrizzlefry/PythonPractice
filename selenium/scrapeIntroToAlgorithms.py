@@ -27,7 +27,7 @@ class PageDriver:
         video_selector = "a[contains(text, 'Internet Archive(MP4)')]"
         logging.debug("selector: {}".format(video_selector))
 
-        logging.debug(div.find_element_by_css_selector('a').get_attribute('href'))
+        #logging.debug(div.find_element_by_css_selector('a').get_attribute('href'))
 
 
 
