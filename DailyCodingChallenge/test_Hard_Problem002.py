@@ -1,5 +1,5 @@
 import unittest
-from Hard_Problem02 import arrayOfProducts
+from Hard_Problem002 import arrayOfProducts
 
 class arrayOfProductsTests(unittest.TestCase):
     def test_arrayOfProducts_Example(self):

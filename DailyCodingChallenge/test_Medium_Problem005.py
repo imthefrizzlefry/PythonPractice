@@ -1,7 +1,7 @@
 import unittest
-from Medium_Problem05 import car
-from Medium_Problem05 import cdr
-from Medium_Problem05 import cons
+from Medium_Problem005 import car
+from Medium_Problem005 import cdr
+from Medium_Problem005 import cons
 
 class pairOperationsTests(unittest.TestCase):
     def test_car_Example(self):
