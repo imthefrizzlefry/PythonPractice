@@ -33,5 +33,12 @@ if __name__ == "__main__":
         expected_result = input[1]
 
         actual_result = can_reach_last(my_list)
+        test_status = actual_result == expected_result
 
-        assert actual_result == expected_result
+        print("{} => {}".format(my_list, actual_result))
+        print("Pass" if test_status else "Fail: Expected {}".format(expected_result))
+        assert test_status
+
+    print("All Tests Passed")
+
+        
